@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
-  --bg: #08090b;
-  --panel: #101216;
-  --panel-2: #0d0f12;
-  --text: #f2f3f5;
-  --muted: #9a9ea8;
-  --faint: #5e636e;
-  --line: #252932;
-  --accent: #b8ff3d;
+  --bg: #2e3034;
+  --panel: #3d404b;
+  --panel-2: #f2f7ff;
+  --text: #e66d3e;
+  --muted: #b0a6a6;
+  --faint: #ffffff;
+  --line: #262525;
+  --accent: #ffb300ba;
   --accent-dim: #8dbf31;
   --max: 1160px;
 }
@@ -69,7 +69,7 @@ h1 span, h2 span { color: var(--muted); }
 .output { color: #b4b8c1; margin: 0 0 10px 22px; }
 .cursor { display: inline-block; width: 7px; height: 15px; background: var(--accent); vertical-align: -3px; animation: blink 1s steps(2,end) infinite; }
 
-.marquee { border-block: 1px solid var(--line); overflow: hidden; white-space: nowrap; color: #242830; font: 700 14px "JetBrains Mono", monospace; letter-spacing: .08em; padding: 15px 0; }
+.marquee { border-block: 1px solid var(--line); overflow: hidden; white-space: nowrap; color: #000000; font: 700 14px "JetBrains Mono", monospace; letter-spacing: .08em; padding: 15px 0; }
 .marquee div { width: max-content; animation: scroll 24s linear infinite; }
 
 .section { padding: 125px 0; }
